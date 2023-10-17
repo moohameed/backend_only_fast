@@ -3,8 +3,8 @@ import { promisify } from 'util';
 
 const pool = mysql.createPool({
     host: 'localhost',
-    user: 'root',
-    password: "root",
+    user: 'mohamed',
+    password: "Mohamed@1476957",
     database: 'frave_food',
     port: 3306,
 });
