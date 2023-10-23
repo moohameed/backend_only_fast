@@ -1,11 +1,12 @@
 {
+
   "name": "restaurant",
   "version": "1.0.0",
   "description": "Restaurant Backend ",
-  "main": "index.js",
-  "type": "commonjs",
+  "main": "Index.js",
+  "type": "module",
   "scripts": {
-    "start": "babel-node src/index.js",
+    "start": "node src/Index.js",
     "dev": "nodemon src/index.js --exec babel-node"
   },
   "author": "Frave Developer",
